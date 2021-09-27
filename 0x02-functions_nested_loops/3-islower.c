@@ -5,7 +5,7 @@
 */
 int _islower(int ch)
 {
-if (ch >= 65 && ch <= 90)
+if (ch >= 'a' && ch <= 'z')
 return (1);
 
 return (0);
