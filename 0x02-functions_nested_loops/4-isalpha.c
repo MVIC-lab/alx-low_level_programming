@@ -4,9 +4,9 @@
 *@c: character to be verified
 *Return: return 0 or 1
 */
-int _isalpha(int ch)
+int _isalpha(int c)
 {
-if ((ch >= 65 && ch <= 90) || (ch >= 97 && ch <= 122))
+if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
 return (1);
 
 return (0);
