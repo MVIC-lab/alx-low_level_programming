@@ -1,4 +1,3 @@
-#include "main.h"
 
 /**
 *main - function prints text as output
@@ -7,14 +6,15 @@
 */
 int main(void)
 {
-	char a[10] = "_putchar";
+        char a[10] = "_putchar";
 
-	int j;
+        int j;
 
-	for (j=0;j<8;j++)
-	{
-		_putchar(a[j]);
-	}
-	_putchar(10);
-	return (0);
+        for (j=0;j<8;j++)
+        {
+                _putchar(a[j]);
+        }
+        _putchar(10);
+        return (0);
 }
+
